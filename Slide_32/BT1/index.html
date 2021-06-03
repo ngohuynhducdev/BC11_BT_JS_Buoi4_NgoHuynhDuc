@@ -15,31 +15,39 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header">Sắp xếp tăng dần</div>
+                    <div class="card-header bg-success text-light">Bài tập 1: Nhập vào ngày,tháng ,năm</div>
                     <div class="card-body">
                         <form>
                             <div class="form-group">
-                                <label>Nhập số thứ 1</label>
-                                <input id="txtNumber1" type="text" class="form-control" />
+                                <label>Ngày</label>
+                                <input type="text"  id="Ngay"/>
                             </div>
                             <div class="form-group">
-                                <label>Nhập số thứ 2</label>
-                                <input id="txtNumber2" type="text" class="form-control" />
+                                <label>Tháng</label>
+                                <input type="text"  id="Thang"/>
                             </div>
                             <div class="form-group">
-                                <label>Nhập số thứ 3</label>
-                                <input id="txtNumber3" type="text" class="form-control" />
+                                <label>Năm</label>
+                                <input type="text" id="Nam" />
                             </div>
-                            <button id="btnXuLy" class="btn btn-success">
-                                Xử lý
+                            <button id="btnNgayTruoc" class="btn btn-success">
+                                Ngày Trước
                             </button>
+                            <button id="btnNgayTiepTheo" class="btn btn-success">
+                                Ngày tiếp theo
+                            </button>
+
+
                         </form>
                     </div>
-                    <div id="footerCard" class="card-footer text-muted"></div>
+                    <div id="divNam" class="card-footer text-muted"></div>
+                    <div id="divNgay" class="card-footer text-muted"></div>
+                    <div id="divThang" class="card-footer text-muted"></div>
                 </div>
             </div>
         </div>
     </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
